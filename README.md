@@ -1,24 +1,27 @@
 # goto-cursor README
 
-This is the README for your extension "goto-cursor". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "goto-cursor".
 
 ## Features
 
-move the panel positioning to cursor point quickly
+positioning the cursor and move panel quickly.
 
 ## Requirements
 
-no any requirements
+If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
 ## Extension Settings
 
-no any extension settings
+* `gotoCursor.enable`: enable/disable this extension
 
 ## Known Issues
 
-no any issues
+Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes
 
-# 0.0.1
-first release
+Users appreciate release notes as you update your extension.
+
+### 1.0.0
+
+first release.
