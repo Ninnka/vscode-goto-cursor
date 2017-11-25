@@ -22,11 +22,3 @@ no any issues
 
 # 0.0.1
 first release
-
------------------------------------------------------------------------------------------------------------
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-
-**Enjoy!**
