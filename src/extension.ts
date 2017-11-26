@@ -28,12 +28,16 @@ export function activate(context: vscode.ExtensionContext) {
     // Now provide the implementation of the command with  registerCommand
     // The commandId parameter must match the command field in package.json
 
-    editor = vscode.window.activeTextEditor;
-    if (editor) {
-        selection = editor.selection;
-    }
+    
 
     let useGotoCursor: vscode.Disposable = vscode.commands.registerCommand('extension.gotoCursor', () => {
+        editor = vscode.window.activeTextEditor;
+        if (editor) {
+            selection = editor.selection;
+        }
+        if (!selection) {
+            return;
+        }
         let lineSaved: number = selection && selection.active ? selection.active.line : 0;
         let colSaved: number = selection && selection.active ? selection.active.character + 1 : 0;
         revealLine(lineSaved, colSaved);

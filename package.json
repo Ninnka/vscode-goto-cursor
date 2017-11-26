@@ -2,7 +2,7 @@
     "name": "goto-cursor",
     "displayName": "goto cursor",
     "description": "goto the cursor postion quickly",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "ninnka",
     "engines": {
         "vscode": "^1.18.0"
